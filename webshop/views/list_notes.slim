@@ -1,0 +1,9 @@
+a.create-note href="/notes/create":button Create Note
+.notes
+    - notes.each do |note|
+        .note-card
+            p = note["content"]
+            .note-controls
+                form action="/notes/#{note["id"]}/delete" method="POST"
+                    input.button type="submit" value="Delete"
+                a.button href="/notes/#{note["id"]}/edit": button Edit
