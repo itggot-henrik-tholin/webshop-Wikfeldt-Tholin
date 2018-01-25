@@ -1,11 +1,5 @@
 
-webshop/.vagrant/machines/default/virtualbox/action_provision
-webshop/.vagrant/machines/default/virtualbox/action_set_name
-webshop/.vagrant/machines/default/virtualbox/creator_uid
-webshop/.vagrant/machines/default/virtualbox/id
-webshop/.vagrant/machines/default/virtualbox/index_uuid
-webshop/.vagrant/machines/default/virtualbox/synced_folders
-webshop/.vagrant/machines/default/virtualbox/vagrant_cwd
+webshop/.vagrant/**
 webshop/config.ru
 webshop/VagrantFile
-webshop/Gemfile
+webshop/Gemfile.lock
